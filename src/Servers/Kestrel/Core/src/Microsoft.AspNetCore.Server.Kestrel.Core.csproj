@@ -11,6 +11,7 @@
     <IsPackable>false</IsPackable>
     <DefineConstants>$(DefineConstants);KESTREL</DefineConstants>
     <Nullable>enable</Nullable>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures> <!-- Http3 is still in preview -->
   </PropertyGroup>
 
   <ItemGroup>
